@@ -40,7 +40,6 @@ public class StorageController {
 		OutputStream outStream = response.getOutputStream();
 		byte[] buffer = new byte[4096];
 		int bytesRead = -1;
-		int babadee =0;
 
 		response.setContentType("application/octet-stream");
 
